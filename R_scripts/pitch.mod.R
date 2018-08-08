@@ -3,7 +3,7 @@
 #Packages: nnet
 
 #Pitcher Model & Accuracy
-pit.mod <- function(pit.dat,i){
+pitch.mod <- function(pit.dat,i){
   #Subset of Pitch Data for Specific Pitcher
   pit.subs <- pit.dat[pit.dat$pitcher_id==pit.id[i],]
   pit.subs <- pit.subs[order(pit.subs$uid),]
