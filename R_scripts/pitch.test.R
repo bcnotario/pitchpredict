@@ -2,7 +2,7 @@
 #Inputs: pit.dat (Pitchf/x prepped data), sample.n (Sample Size)
 
 #Test Pitcher Models (Sample)
-pit.test <- function(pit.dat,sample.n){
+pitch.test <- function(pit.dat,sample.n){
   #Sample
   test.s <- sort(sample(pit.dat$pit.nid,sample.n,replace=FALSE))
   
